@@ -1,0 +1,77 @@
+@font-face
+  font-family: 'PF Din Text Pro Light'
+  src: url('fonts/PFDinTextPro-Light.ttf')
+#body-tema
+  background: url('bg.jpg') repeat-x 0 36px
+  height: 100%
+
+  #content-tema
+    margin: 0 auto
+    padding: 41px 0 36px 174px
+    font-family: PF Din Text Pro Light
+    color: #f2f2f2
+    max-width: 800px
+    min-width: 550px
+    background: url('quadro_03.jpg') repeat-y 36px 0
+
+    p
+      padding: 0 36px 0 0
+      margin: 0
+      font-size: 24px
+
+      span
+        float: right
+
+        a
+          color: #888
+          font-size: 20px
+          text-decoration: none
+
+          &:hover
+            color: white
+
+          &:last-child
+            color: white
+
+    h1
+      font-size: 28px
+      font-weight: normal
+      margin: 42px 0 39px
+
+    ul
+      padding: 0
+      font-size: 24px
+      list-style: none
+
+      li
+        margin-bottom: 7px
+        position: relative
+
+        &:last-child
+          margin-top: 42px
+
+        &:before
+          content: ""
+          position: absolute
+          left: -22px
+          top: 2px
+          width: 0px
+          height: 0px
+          border-style: solid
+          border-width: 12px
+          border-color: transparent transparent transparent #242424
+
+        p
+          font-size: 20px
+          margin: 4px 0
+
+          &:first-child
+            margin-top: 8px
+
+  footer
+    height: 50px
+    max-width: 800px
+    min-width: 550px
+    margin: 0 auto
+    padding: 0 0 0 174px
+    background: url('quadro_03.jpg') repeat-y 36px 0

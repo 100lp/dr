@@ -1,5 +1,6 @@
 Dr::Application.routes.draw do
-  resources :users
-
+  devise_for :users
+  get '/tema' => 'pages#tema'
+  get '/tema_ru' => 'pages#tema_ru'
   root 'pages#index'
 end
